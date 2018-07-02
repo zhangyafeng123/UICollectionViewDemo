@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AE2283F07891DF327A937F /* libPods-UICollectionViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A25F0DF3DE3EC33F364A3BE /* libPods-UICollectionViewDemo.a */; };
 		9CD83A5220EA504F00A5F1AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A5120EA504F00A5F1AD /* AppDelegate.m */; };
 		9CD83A5520EA504F00A5F1AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A5420EA504F00A5F1AD /* ViewController.m */; };
 		9CD83A5820EA504F00A5F1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD83A5620EA504F00A5F1AD /* Main.storyboard */; };
 		9CD83A5A20EA505100A5F1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD83A5920EA505100A5F1AD /* Assets.xcassets */; };
 		9CD83A5D20EA505100A5F1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD83A5B20EA505100A5F1AD /* LaunchScreen.storyboard */; };
 		9CD83A6020EA505100A5F1AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A5F20EA505100A5F1AD /* main.m */; };
+		9CD83A6820EA538500A5F1AD /* ZYFWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A6720EA538500A5F1AD /* ZYFWaterFlowLayout.m */; };
+		9CD83A6C20EA5D4800A5F1AD /* ZYFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A6A20EA5D4800A5F1AD /* ZYFCollectionViewCell.m */; };
+		9CD83A6D20EA5D4800A5F1AD /* ZYFCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD83A6B20EA5D4800A5F1AD /* ZYFCollectionViewCell.xib */; };
+		9CD83A6F20EA5D9800A5F1AD /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CD83A6E20EA5D9800A5F1AD /* 1.plist */; };
+		9CD83A7220EA5EC000A5F1AD /* XRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD83A7120EA5EC000A5F1AD /* XRImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02247F287B11C2EC635FCE36 /* Pods-UICollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		23BC4346456C42F47AB9E524 /* Pods-UICollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8A25F0DF3DE3EC33F364A3BE /* libPods-UICollectionViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UICollectionViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD83A4D20EA504F00A5F1AD /* UICollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD83A5020EA504F00A5F1AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CD83A5120EA504F00A5F1AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,14 @@
 		9CD83A5C20EA505100A5F1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD83A5E20EA505100A5F1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD83A5F20EA505100A5F1AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CD83A6620EA538500A5F1AD /* ZYFWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFWaterFlowLayout.h; sourceTree = "<group>"; };
+		9CD83A6720EA538500A5F1AD /* ZYFWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFWaterFlowLayout.m; sourceTree = "<group>"; };
+		9CD83A6920EA5D4800A5F1AD /* ZYFCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFCollectionViewCell.h; sourceTree = "<group>"; };
+		9CD83A6A20EA5D4800A5F1AD /* ZYFCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFCollectionViewCell.m; sourceTree = "<group>"; };
+		9CD83A6B20EA5D4800A5F1AD /* ZYFCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYFCollectionViewCell.xib; sourceTree = "<group>"; };
+		9CD83A6E20EA5D9800A5F1AD /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		9CD83A7020EA5EBF00A5F1AD /* XRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRImage.h; sourceTree = "<group>"; };
+		9CD83A7120EA5EC000A5F1AD /* XRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AE2283F07891DF327A937F /* libPods-UICollectionViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02323F1D7502E530244709FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F0DF3DE3EC33F364A3BE /* libPods-UICollectionViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CD83A4420EA504F00A5F1AD = {
 			isa = PBXGroup;
 			children = (
 				9CD83A4F20EA504F00A5F1AD /* UICollectionViewDemo */,
 				9CD83A4E20EA504F00A5F1AD /* Products */,
+				B7EA45F4FE1E492B65F9A9B3 /* Pods */,
+				02323F1D7502E530244709FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +90,14 @@
 				9CD83A5120EA504F00A5F1AD /* AppDelegate.m */,
 				9CD83A5320EA504F00A5F1AD /* ViewController.h */,
 				9CD83A5420EA504F00A5F1AD /* ViewController.m */,
+				9CD83A6620EA538500A5F1AD /* ZYFWaterFlowLayout.h */,
+				9CD83A6720EA538500A5F1AD /* ZYFWaterFlowLayout.m */,
+				9CD83A7020EA5EBF00A5F1AD /* XRImage.h */,
+				9CD83A7120EA5EC000A5F1AD /* XRImage.m */,
+				9CD83A6E20EA5D9800A5F1AD /* 1.plist */,
+				9CD83A6920EA5D4800A5F1AD /* ZYFCollectionViewCell.h */,
+				9CD83A6A20EA5D4800A5F1AD /* ZYFCollectionViewCell.m */,
+				9CD83A6B20EA5D4800A5F1AD /* ZYFCollectionViewCell.xib */,
 				9CD83A5620EA504F00A5F1AD /* Main.storyboard */,
 				9CD83A5920EA505100A5F1AD /* Assets.xcassets */,
 				9CD83A5B20EA505100A5F1AD /* LaunchScreen.storyboard */,
@@ -71,6 +107,15 @@
 			path = UICollectionViewDemo;
 			sourceTree = "<group>";
 		};
+		B7EA45F4FE1E492B65F9A9B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23BC4346456C42F47AB9E524 /* Pods-UICollectionViewDemo.debug.xcconfig */,
+				02247F287B11C2EC635FCE36 /* Pods-UICollectionViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD83A6320EA505100A5F1AD /* Build configuration list for PBXNativeTarget "UICollectionViewDemo" */;
 			buildPhases = (
+				6C04E1F5A52BF644D1112ACC /* [CP] Check Pods Manifest.lock */,
 				9CD83A4920EA504F00A5F1AD /* Sources */,
 				9CD83A4A20EA504F00A5F1AD /* Frameworks */,
 				9CD83A4B20EA504F00A5F1AD /* Resources */,
@@ -128,20 +174,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD83A6F20EA5D9800A5F1AD /* 1.plist in Resources */,
 				9CD83A5D20EA505100A5F1AD /* LaunchScreen.storyboard in Resources */,
 				9CD83A5A20EA505100A5F1AD /* Assets.xcassets in Resources */,
+				9CD83A6D20EA5D4800A5F1AD /* ZYFCollectionViewCell.xib in Resources */,
 				9CD83A5820EA504F00A5F1AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C04E1F5A52BF644D1112ACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UICollectionViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CD83A4920EA504F00A5F1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD83A6C20EA5D4800A5F1AD /* ZYFCollectionViewCell.m in Sources */,
+				9CD83A7220EA5EC000A5F1AD /* XRImage.m in Sources */,
 				9CD83A5520EA504F00A5F1AD /* ViewController.m in Sources */,
+				9CD83A6820EA538500A5F1AD /* ZYFWaterFlowLayout.m in Sources */,
 				9CD83A6020EA505100A5F1AD /* main.m in Sources */,
 				9CD83A5220EA504F00A5F1AD /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +353,7 @@
 		};
 		9CD83A6420EA505100A5F1AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BC4346456C42F47AB9E524 /* Pods-UICollectionViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +370,7 @@
 		};
 		9CD83A6520EA505100A5F1AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02247F287B11C2EC635FCE36 /* Pods-UICollectionViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
